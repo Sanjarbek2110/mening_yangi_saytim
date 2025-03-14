@@ -57,12 +57,14 @@ button {
 /* Media */
 @media (max-width: 830px) {
     h1{
-       font-size: 30px;
+       width: auto !important;
+       font-size: 30px !important;
     }
 }
 
 @media (max-width: 370px) {
        h1{
-          font-size: 25px;
+              width: 300px;
+              font-size: 20px !important;
        }
 }
